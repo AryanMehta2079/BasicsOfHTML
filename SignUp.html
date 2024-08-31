@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+    <form action="/Assignment/media and forms/SignIn.html">
+    <h3><a href="./SignIn.html">SignIn</a> | <a href="./SignUp.html">SignUp</a></h3>
+    <label for="firstname" >First Name: </label>
+    <input type="text" id="firstname" placeholder="John" minlength="3" maxlength="20" required>
+
+<br>
+    <label for="lastname">Last Name: </label>
+    <input type="text" id="lastname" placeholder="Doe" required minlength="3" maxlength="20">
+<br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="john@doe.com" minlength="3" required>
+<br>
+    <label for="pwd">Create password:</label>   
+    <input type="password" name="pwd" id="pwd" placeholder="********" minlength="8"> 
+<br>
+    <label for="password">Confirm Password:</label>
+    <input type="password" name="password" id="password" placeholder="********" minlength="8">>
+<br>
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" placeholder="23" min="0" max="150" >
+<br>
+    <label for="Gender">Gender:</label>
+    <input type="radio" value="male" id="male" name="Gender" required>
+    <label for="male">male</label>
+    <input type="radio" value="female" id="female" name="Gender" required>
+    <label for="female">female</label>
+<br>
+<input type="checkbox" name="" id="TAC" checked>
+<label for="TAC"><a href="#">Agree to terms and condition</a></label>
+<br>
+    <!-- <input type="submit" value="Register"> -->
+    <button type="submit">Register</button>
+</form>
+</body>
+</html>
